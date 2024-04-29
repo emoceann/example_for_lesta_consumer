@@ -1,0 +1,1 @@
+from src.consumer.schemas.log_data import LogDataSchema

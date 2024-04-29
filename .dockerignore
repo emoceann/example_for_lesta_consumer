@@ -1,0 +1,14 @@
+Dockerfile
+.dockerignore
+.gitlab-ci.yml
+.git
+.github
+node_modules
+aws
+coverage
+dist
+.eslintrc.js
+.prettierrc
+.nvmrc
+.idea
+sonar-project.properties

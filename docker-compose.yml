@@ -1,0 +1,10 @@
+services:
+  consumer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    restart: always
+    command: ./start_app.sh
+    env_file:
+      - .env
